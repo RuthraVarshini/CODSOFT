@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Innovative Solutions Hub</title>
+<link rel="stylesheet" href="style.css">
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #f0f0f0;
+color: #444;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+}
+
+header {
+background: linear-gradient(135deg, #4caf50, #2196f3);
+color: #fff;
+padding: 1rem;
+text-align: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header h1 {
+font-size: 2.5rem;
+margin-bottom: 0.5rem;
+}
+
+nav {
+background: #2196f3;
+padding: 0.5rem 0;
+display: flex;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+padding: 0 1rem;
+transition: color 0.3s ease;
+}
+
+nav a:hover {
+color: #ffd700;
+font-weight: bold;
+}
+
+.hero {
+text-align: center;
+padding: 4rem 2rem;
+background-image: url('images/images.png');
+background-size: cover;
+background-position: center;
+color: black;
+}
+
+.hero h2 {
+font-size: 3.5rem;
+margin-bottom: 1rem;
+}
+
+.hero p {
+font-size: 1.2rem;
+}
+
+.services {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 2rem;
+background-color: #fff;
+color: black;
+}
+
+.service {
+flex: 1;
+margin: 1rem;
+text-align: center;
+background: rgba(255, 255, 255, 0.9);
+padding: 3rem;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}
+
+.service:hover {
+transform: translateY(-5px);
+}
+
+.service:nth-child(odd) {
+background-image: url('images/webdesign.png');
+background-size: cover;
+background-position: center;
+color:black;
+font-weight: bold;
+height: 300px;
+}
+
+.service:nth-child(even) {
+background-image: url('images/graphicdesign.png');
+background-size: cover;
+background-position: center;
+color:white;
+font-weight: bold;
+height: 300px;
+}
+
+.additional-content {
+text-align: center;
+padding: 4rem;
+}
+
+.additional-content h2 {
+font-size: 2.5rem;
+margin-bottom: 1rem;
+}
+
+.additional-content p {
+font-size: 1.2rem;
+}
+
+.cta-button {
+display: inline-block;
+background-color: #2196f3;
+color: #fff;
+padding: 1rem 2rem;
+text-decoration: none;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+background-color: #0d8af5;
+}
+
+footer {
+background: #4caf50;
+color: #fff;
+text-align: center;
+padding: 1rem 0;
+}
+
+footer p {
+margin: 0;
+}
+
+.testimonials {
+background-color: #f8f9fa;
+padding: 4rem 0;
+text-align: center;
+}
+
+.testimonial-carousel {
+display: flex;
+overflow-x: auto;
+scrollbar-width: none;
+-ms-overflow-style: none;
+justify-content: center;
+margin-top: 2rem;
+}
+
+.testimonial {
+flex: 0 0 auto;
+max-width: 400px;
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+padding: 2rem;
+margin: 0 1rem;
+transition: transform 0.3s ease;
+}
+
+.testimonial:hover {
+transform: translateY(-5px);
+}
+
+.testimonial-content {
+margin-bottom: 1rem;
+}
+
+.testimonial-author {
+font-weight: bold;
+color: #333;
+}
+
+.testimonial-carousel::-webkit-scrollbar {
+display: none;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Innovative Solutions Hub</h1>
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<h2>Welcome to Our Innovative Solutions Hub</h2>
+<p>We are passionate about delivering innovative digital solutions.</p>
+</div>
+
+<div class="services">
+<div class="service">
+<h3>Custom Software Development</h3>
+<p>We specialize in creating tailored software solutions to meet your unique business needs.</p>
+</div>
+<div class="service">
+<h3>Data Analysis</h3>
+<p>Unlock the potential of your data with our advanced analytics services.</p>
+</div>
+<div class="service">
+<h3>Cloud Services</h3>
+<p>Take advantage of the scalability and flexibility of cloud computing with our cloud services.</p>
+</div>
+</div>
+
+<div class="additional-content">
+<h2>About Us</h2>
+<p>We are a team of dedicated professionals committed to delivering innovative solutions that drive business growth and success. With expertise in various technologies and industries, we strive to exceed our clients' expectations and help them achieve their goals.</p>
+<a href="#" class="cta-button">Learn More</a>
+</div>
+
+<section class="testimonials">
+<h2>What Our Clients Say</h2>
+<div class="testimonial-carousel">
+<div class="testimonial">
+<div class="testimonial-content">
+<p>"Innovative Solutions Hub helped us transform our business with their cutting-edge software solutions. Highly recommended!"</p>
+</div>
+<div class="testimonial-author">John Doe</div>
+</div>
+<div class="testimonial">
+<div class="testimonial-content">
+<p>"We're thrilled with the results delivered by Innovative Solutions Hub. Their expertise and dedication are unmatched."</p>
+</div>
+<div class="testimonial-author">Jane Smith</div>
+</div>
+<div class="testimonial">
+<div class="testimonial-content">
+<p>"Working with Innovative Solutions Hub was a game-changer for us. Their professionalism and innovation exceeded our expectations."</p>
+</div>
+<div class="testimonial-author">David Johnson</div>
+</div>
+</div>
+</section>
+
+<footer>
+<p>&copy; 2024 Innovative Solutions Hub. All rights reserved.</p>
+</footer>
+</body>
+</html>
